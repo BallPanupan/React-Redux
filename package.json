@@ -1,0 +1,23 @@
+{
+  "name": "react-redux",
+  "version": "1.0.0",
+  "description": "\"# React-Redux\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanupanSekitori/React-Redux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PanupanSekitori/React-Redux/issues"
+  },
+  "homepage": "https://github.com/PanupanSekitori/React-Redux#readme",
+  "dependencies": {
+    "redux": "^4.1.2"
+  }
+}
