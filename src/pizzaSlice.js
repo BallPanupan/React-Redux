@@ -15,9 +15,12 @@ export const pizzaSlice = createSlice({
         addTopping: (state, action) => {
             state.toppings = [...state.toppings, action.payload]
         },
+        clearTopping: (state, action) => {
+            console.log('clear : ', state.toppings = [])
+        },
     },
 })
 
-export const { toggleGluten, addTopping } = pizzaSlice.actions
+export const { toggleGluten, addTopping, clearTopping } = pizzaSlice.actions
 
 export default pizzaSlice.reducer
