@@ -20,8 +20,8 @@ function App() {
 
       <h1>Pizza</h1>
 
-      {pizza.toppings.map(topping => (
-        <div key={topping}>{topping}</div>
+      {pizza.toppings.map((topping, index) => (
+        <div key={index}>{topping}</div>
       ))}
 
     </>

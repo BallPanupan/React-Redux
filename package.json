@@ -1,5 +1,6 @@
 {
   "name": "my-app",
+  "homepage": "https://inassets.w3spaces.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
